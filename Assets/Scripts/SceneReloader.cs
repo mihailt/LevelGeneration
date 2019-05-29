@@ -7,7 +7,7 @@ public class SceneReloader : MonoBehaviour
 {
     void Update()
     {
-      if (Input.GetKeyDown("space")){
+      if (Input.GetKeyDown(KeyCode.R)){
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
       }       
     }
